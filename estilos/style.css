@@ -1,1 +1,62 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+
+/* site presets
+
+laranja: #BF3604
+marrom-escuro: #400101
+roxo: #4E2973
+roxo-claro: #A884BF
+fonte-padrão: "Irish Grover"
+
+*/
+
+* {
+    font-family: "Irish Grover", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    background-color: #BF3604;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+}
+
+section#login {
+    background-color: white;
+    width: 280px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.551);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#foto {
+    background: #A884BF url(../imagens/gato.jpg) no-repeat;
+    background-size: cover;
+    background-position: right center;
+    display: block;
+    height: 200px;
+}
+
+section#login > div#form {
+    display: block;
+    padding: 10px;
+}
