@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
 
@@ -7,9 +6,8 @@
 /* site presets
 
 laranja: #BF3604
+laranja-claro: #F27B13
 marrom-escuro: #400101
-roxo: #4E2973
-roxo-claro: #A884BF
 fonte-padrão: "Irish Grover"
 
 */
@@ -46,10 +44,12 @@ section#login {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#foto {
-    background: #A884BF url(../imagens/gato.jpg) no-repeat;
+    background: black url(../imagens/gato.jpg) no-repeat;
     background-size: cover;
     background-position: right center;
     display: block;
@@ -60,3 +60,15 @@ section#login > div#form {
     display: block;
     padding: 10px;
 }
+
+section#login > div#form > h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+section#login > div#form > p {
+    font-size: 1em;
+    text-indent: 30px;
+    text-align: justify;
+}
+
