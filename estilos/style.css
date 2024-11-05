@@ -72,3 +72,50 @@ section#login > div#form > p {
     text-align: justify;
 }
 
+form > div.campo {
+    background-color: #F27B13 ;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4E2973;
+    border-radius: 5px;
+    font-size: 1em;
+    
+}
+
+form > input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #2b1640;
+    color: white;
+}
+
+form > a.botao {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #A884BF;
+    padding: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+form > a.botao:hover {
+    background-color: #7a5f8b;
+    color: white;
+}
+
+
